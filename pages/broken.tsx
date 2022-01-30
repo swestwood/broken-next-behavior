@@ -17,11 +17,11 @@ const Broken : NextPage = () => {
     return (
         <div>
             <div style={{marginTop: 32, marginLeft: 32}}>
-                <p>This is the animal: {animal}</p>
-                <p>This is the link: <a href={link}>{link}</a></p>
-                <p>But, when you click the link above, it goes to a different animal's page.</p>
-                <p>Hovering over the link shows that the <code> href</code> is different even though it is the same <code>link</code> variable being used.</p>
-                <p>If the link correctly matches, it is because you navigated to this page from the main page (or occasional random chance) -- if you refresh, it will be wrong again.</p>
+                <p>{`This is the animal: ${animal}`}</p>
+                <p>{"This is the link: "}<a href={link}>{link}</a></p>
+                <p>{"But, when you click the link above, it goes to a different animal's page."}</p>
+                <p>{"Hovering over the link shows that the href is different even though it is the same variable being used."}</p>
+                <p>{"If the link correctly matches, it is because you navigated to this page from the main page (or occasional random chance) -- if you refresh, it will be wrong again."}</p>
             </div>
         </div>
     )

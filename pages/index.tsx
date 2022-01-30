@@ -15,10 +15,10 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <h1>Demo of bad random behavior</h1>
 
-        <p>If you go to the /broken page by following this link, the behavior is correct.</p>
-        <p>But, if you load /broken directly, or refresh it after following the link, it is broken.</p>
+        <p>{"If you go to the /broken page by following this link, the behavior is correct."}</p>
+        <p>{"But, if you load /broken directly, or refresh it after following the link, it is broken."}</p>
         <Link href="/broken">
-          <a>Go to demo</a>
+          <a>{"Go to demo"}</a>
         </Link>
       </main>
     </div>
