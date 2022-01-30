@@ -4,7 +4,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Repro steps
 
-`npx create-next-app broken-demo --use-npm --ts`
+- `npx create-next-app broken-demo --use-npm --ts`
+- Add pages/broken.tsx
+- npm run dev
+- Load /broken 
+- Hover over the link -- the linked Wikipedia page is different from the link text, even though it's the same variable.
+- [Deployed version](https://bad-next-behavior.vercel.app/broken) where the animal in the link also happens to always stay the same, even whiel the rendered link animal is changing.
+- ... that's it.
+
 
 ## Deploy on Vercel
 
