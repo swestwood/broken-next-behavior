@@ -9,8 +9,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - npm run dev
 - Load /broken 
 - Hover over the link -- the linked Wikipedia page is different from the link text, even though it's the same variable.
-- [Deployed version](https://bad-next-behavior.vercel.app/broken) where the animal in the link also happens to always stay the same, even whiel the rendered link animal is changing.
-- ... that's it.
+
+
+You can also see this in the [deployed version](https://bad-next-behavior.vercel.app/broken) where the animal in the link also happens to always stay the same, even while the rendered link animal is changing.
 
 
 ## Deploy on Vercel
